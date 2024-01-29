@@ -32,3 +32,16 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# jupyter checkpints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+keys
+*/keys/*
+
+# Dataset and data files
+*ny_taxi_postgres_data
+*csv*
+
+*commands.txt
+*.terraform.lock*
