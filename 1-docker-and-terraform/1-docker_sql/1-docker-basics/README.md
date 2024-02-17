@@ -1,3 +1,9 @@
+# Introduction to Docker
+
+- Why do we need Docker?
+- Creating a simple "data pipeline" in Docker
+  
+
 ```docker run hello-world```
 
  - This will download and run docker image named: "hello-world" from docker hub
