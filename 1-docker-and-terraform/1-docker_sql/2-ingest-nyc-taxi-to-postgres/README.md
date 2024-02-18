@@ -1,3 +1,10 @@
+# Ingesting NY Taxi Data to Postgres
+
+- Running Postgres locally with Docker
+- Using pgcli for connecting to the database
+- Exploring the NY Taxi dataset
+- Ingesting the data into the database
+
 ### Run a postgres container with CLI
 
 ```
