@@ -26,7 +26,7 @@ python ingest_nyc_to_postgres.py \
     -because this docker will be isolated container and no postgres running on this, instead it is running on different container and it is in network
 - "--host" is the name of the postgres instance/container which used while running inside network in last step i.e. '4-pgadmin-postgres' folder
 
-- Run below command from ```data-engineering/1-docker-and-terraform/1-docker_sql/5-dockerize-ingestion-script``` folder
+- Run below command from [4-pgadmin-postgres](https://github.com/maaz-ahmed-ansari/data-engineering/tree/main/1-docker-and-terraform/1-docker_sql/4-pgadmin-postgres) folder
 
 ```
 docker build -t taxi_ingest:v1.0 .
