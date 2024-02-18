@@ -50,6 +50,11 @@ docker run -it \
 
 
 - Connect to pgAdmin on http://localhost:8080
+    - After login to PgAdmin, right click Servers in the left sidebar.
+        - Username: admin@admin.com
+        - Password: root
+    - Click on Register.
+    - Click on Server.
 - Create server and in connection details put
     - Hostname as: "pg-database-new" which is name of Docker container/instance running on container
     - Username as: "root" (since root is used as username while running up postgres container)
