@@ -42,7 +42,7 @@ docker run -it \
     taxi_ingest:v1.0 \
         --user=root \
         --password=root \
-        --host=pg-database-new-1 \
+        --host=pg-database-new \
         --port=5432 \
         --db=ny_taxi \
         --table_name=yellow_taxi_trips \
