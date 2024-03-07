@@ -11,3 +11,10 @@
 - Setting up infrastructure on GCP with Terraform
 - Preparing the environment for the course
 - Homework
+
+
+## Module 2: Workflow Orchestration
+- Data Lake
+- Workflow orchestration
+- Workflow orchestration with Mage
+- Homework
